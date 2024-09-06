@@ -1,0 +1,66 @@
+/* Navbar styles */
+.navbar {
+    width: 100%;
+    background-color: #7da9a5; /* Soft teal color */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .nav-item {
+    display: block;
+    color: white; /* White text for links */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar .nav-item:hover {
+    background-color: #576f6b; /* Slightly darker teal for hover */
+}
+
+
+.card-container {
+    margin-top: 60px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:whitesmoke;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 16px;
+
+}
+.card-content h4{
+    font-size: 16px;
+}
